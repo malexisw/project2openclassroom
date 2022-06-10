@@ -1,0 +1,30 @@
+
+/* Footer */
+footer{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: var(--gray-900);
+    display: flex;
+}
+
+footer nav{
+    width: 33%;
+}
+
+nav h2{
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+
+footer nav ul li:not(:last-child){
+    margin-bottom: 20px;
+}
+
+nav ul li a{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}

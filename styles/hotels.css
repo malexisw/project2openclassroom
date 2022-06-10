@@ -1,0 +1,166 @@
+/* Hebergements section */
+.hotels {
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+
+/* Left side */
+.side {
+    background-color: var(--gray-900);
+    border-radius: 20px;
+    padding: 60px 40px 30px;
+}
+
+.hebergements {
+    flex-direction: column;
+    width: 70%;
+    margin-right: 60px;
+}
+
+.famous {
+    width: 30%;
+}
+
+h1.hotels__title {
+    margin-bottom: 30px;
+}
+
+ul.hotels__list {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card {
+    position: relative;
+    padding: 5px;
+    background-color: #FFFFFF;
+}
+
+li.hebergements__card {
+    position: relative;
+    width: 30%;
+}
+
+.card__img.heb {
+    height: 150px;
+}
+
+.card__text {
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 10px 20px;
+}
+
+h2.card_title {
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+p.card__price {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card__price span {
+    font-weight: bold;
+}
+
+.card__stars {
+    margin-top: 5px;
+}
+
+.card__stars .gray {
+    color: var(--gray-600);
+}
+
+.card__stars .blue {
+    color: var(--blue-600);
+}
+
+.more {
+    height: 100%;
+}
+
+.more a h2 {
+    font-weight: 800;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+/* Right side */
+
+.famous__title_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.famous__title_container i {
+    font-size: 26px;
+}
+
+.famous__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.famous__card {
+    display: flex;
+    height: 200px;
+}
+
+.card__img.fam {
+    min-width: 40%;
+    max-width: 40%;
+}
+
+img.right_l {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.fam img {
+    height: 100%;
+    width: 100%;
+}
+
+p.card__price.fam {
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {
+    .hotels {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        gap: 60px;
+    }
+
+    .side {
+        background-color: transparent;
+        border-radius: 20px;
+        padding: 60px 40px 30px;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .famous{
+        background-color: var(--gray-900);
+    }
+
+    ul.hotels__list {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    li.hebergements__card {
+        position: relative;
+        width: 100%;
+    }
+}

@@ -1,0 +1,236 @@
+/*Search section*/
+
+p.title_second {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+form.search__location {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form {
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.location__logo {
+    font-size: 24px;
+    background-color: var(--gray-900);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    z-index: 1;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.location__city {
+    outline: none;
+    border-top: 1px solid var(--gray-600);
+    border-bottom: 1px solid var(--gray-600);
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.btn_location {
+    background-color: var(--blue-600);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* Filter */
+
+.filter {
+    justify-content: flex-start;
+    gap: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+ul.filter__list {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+li.filter__item {
+    position: relative;
+    border: solid 2px var(--gray-600);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 14px;
+
+}
+
+.filter__logo {
+    position: absolute;
+    left: -30px;
+
+    justify-content: center;
+    color: var(--blue-600);
+    border-radius: 50%;
+    background-color: hsl(216, 100%, 90%);
+    font-size: 20px;
+    height: 60px;
+    width: 60px;
+}
+
+.fa-child-reaching {
+    font-size: 26px;
+}
+
+p.filter__text {
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 25px;
+}
+
+/* Info */
+.info {
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.circle__info {
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    color: var(--blue-600);
+    border: solid 2px var(--gray-600);
+    border-radius: 50%;
+}
+
+p.info__text {
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {
+    section.search {
+        margin-top: 60px;
+    }
+
+    .search__title {
+        margin-bottom: 60px;
+    }
+
+    h1.title_first {
+        font-size: 46px;
+        line-height: 54px;
+        margin-bottom: 30px;
+    }
+
+    p.title_second {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 34px;
+    }
+
+    .form {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .location__logo {
+        text-align: center;
+        width: 15%;
+        font-size: 36px;
+        background-color: var(--gray-900);
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        z-index: 1;
+        padding: 32px 0px;
+    }
+
+    .location__city {
+        width: 70%;
+        outline: none;
+        padding: 30px 0px;
+        padding-left: 20px;
+    }
+
+    .btn_location {
+        text-align: center;
+        width: 15%;
+        background-color: var(--blue-600);
+        border-radius: 30px;
+        color: #FFFFFF;
+        cursor: pointer;
+        padding: 30px 0;
+    }
+
+    /* Filter */
+
+    .filter {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .filter__title {
+        font-size: 38px;
+        margin-bottom: 0px;
+    }
+
+    ul.filter__list {
+        justify-content: flex-start;
+        margin-left: 50px;
+        gap: 0;
+    }
+
+    li.filter__item {
+        align-items: center;
+        padding: 24px;
+        margin-right: 40px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .filter__logo {
+        align-items: center;
+        left: -50px;
+        font-size: 36px;
+        height: 90px;
+        width: 90px;
+    }
+
+    .fa-child-reaching {
+        font-size: 40px;
+    }
+
+    p.filter__text {
+        padding-right: 10px;
+        font-size: 36px;
+        margin-left: 25px;
+    }
+
+    .info {
+        gap: 10px;
+    }
+    
+    .circle__info {
+        align-items: center;
+        height: 50px;
+        width: 70px;
+        font-size: 28px;
+        margin-right: 20px;
+    }
+    
+    p.info__text {
+        font-size: 34px;
+    }
+}

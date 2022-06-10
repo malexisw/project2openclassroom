@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;600;700;800;900&display=swap');
+
+@import './styles/header.css';
+@import './styles/search.css';
+@import './styles/hotels.css';
+@import './styles/activity.css';
+@import './styles/footer.css';
+
+/* Variable styles */
+
+:root {
+    --blue-600: #0065FC;
+    --blue-300: #DEEBFF;
+    --gray-600: #d8d8d8;
+    --gray-900: #f2f2f2;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Global style */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+img {
+    width: 100%;
+    max-height: 100%;
+}
+
+/* Specific styles */
+
+
+.flex {
+    display: flex;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.bot_r {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card__shadow {
+    box-shadow: 0px 5px 15px var(--gray-600);
+    border-radius: 20px;
+}
+
+.xs {
+    display: none;
+}
+
+.xl {
+    display: initial;
+}
+
+@media screen and (min-width: 992px) {
+
+    header,
+    main,
+    footer {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .pad-20 {
+        padding: 20px;
+    }
+
+    .flex_ac {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    footer, .search {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .xs {
+        display: initial;
+    }
+
+    .xl {
+        display: none;
+    }
+
+    .flex_ac {
+        display: flex;
+    }
+
+    h1 {
+        font-weight: 800;
+        font-size: 42px;
+        line-height: 30px;
+    }
+    
+    h2 {
+        font-size: 34px;
+        font-weight: 700;
+    }
+}
