@@ -14,16 +14,18 @@
   <body>
     <header>
       <div class="logo_container">
-        <img src="./images/logo/Booki.png" alt="Booki" class="logo" />
+        <a href="#">
+          <img src="./images/logo/Booki.png" alt="Booki" class="logo" />
+        </a>
       </div>
 
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__link link_actif">
-            <a href="#" class="link">Hébergements</a>
+            <a href="#hebergement" class="link">Hébergements</a>
           </li>
           <li class="nav__link link_inactif">
-            <a href="#" class="link">Activités</a>
+            <a href="#activity" class="link">Activités</a>
           </li>
         </ul>
       </nav>
@@ -93,35 +95,41 @@
           </p>
         </div>
       </section>
-      <section class="hotels flex">
+      <section class="hotels flex" id="hebergement">
         <div class="hebergements side flex">
           <h1 class="hotels__title">Hébergements à Marseille</h1>
           <ul class="hotels__list flex">
             <li class="hebergements__card card card__shadow">
-              <div class="card__img heb">
-                <img
-                  class="bot_r cover"
-                  src="/images/hebergements/4_small/cannebiere.jpg"
-                  alt="Auberge La Cannebière"
-                />
-              </div>
-
-              <div class="card__text flex">
-                <div class="text_top">
-                  <h2 class="card_title">Auberge La Cannebière</h2>
-                  <p class="card__price">Nuit à partir de <span>25 €</span></p>
+              <a href="#">
+                <div class="card__img heb">
+                  <img
+                    class="bot_r cover"
+                    src="/images/hebergements/4_small/cannebiere.jpg"
+                    alt="Auberge La Cannebière"
+                  />
                 </div>
 
-                <div class="card__stars">
-                  <i class="fa-solid fa-star blue"></i
-                  ><i class="fa-solid fa-star blue"></i
-                  ><i class="fa-solid fa-star blue"></i
-                  ><i class="fa-solid fa-star blue"></i
-                  ><i class="fa-solid fa-star gray"></i>
+                <div class="card__text flex">
+                  <div class="text_top">
+                    <h2 class="card_title">Auberge La Cannebière</h2>
+                    <p class="card__price">
+                      Nuit à partir de <span>25 €</span>
+                    </p>
+                  </div>
+
+                  <div class="card__stars">
+                    <i class="fa-solid fa-star blue"></i
+                    ><i class="fa-solid fa-star blue"></i
+                    ><i class="fa-solid fa-star blue"></i
+                    ><i class="fa-solid fa-star blue"></i
+                    ><i class="fa-solid fa-star gray"></i>
+                  </div>
                 </div>
-              </div>
+              </a>
             </li>
+
             <li class="hebergements__card card card__shadow">
+            <a href="#">
               <div class="card__img heb">
                 <img
                   class="bot_r cover"
@@ -144,8 +152,10 @@
                   ><i class="fa-solid fa-star blue"></i>
                 </div>
               </div>
+              </a>
             </li>
             <li class="hebergements__card card card__shadow">
+              <a href="#">
               <div class="card__img heb">
                 <img
                   class="bot_r cover"
@@ -168,8 +178,10 @@
                   ><i class="fa-solid fa-star gray"></i>
                 </div>
               </div>
+              </a>
             </li>
             <li class="hebergements__card card card__shadow">
+              <a href="#">
               <div class="card__img heb">
                 <img
                   class="bot_r cover"
@@ -192,8 +204,10 @@
                   ><i class="fa-solid fa-star gray"></i>
                 </div>
               </div>
+              </a>
             </li>
             <li class="hebergements__card card card__shadow">
+              <a href="#">
               <div class="card__img heb">
                 <img
                   class="bot_r cover"
@@ -216,8 +230,10 @@
                   ><i class="fa-solid fa-star gray"></i>
                 </div>
               </div>
+              </a>
             </li>
             <li class="hebergements__card card card__shadow">
+              <a href="#">
               <div class="card__img heb">
                 <img
                   class="bot_r cover"
@@ -240,6 +256,7 @@
                   ><i class="fa-solid fa-star blue"></i>
                 </div>
               </div>
+              </a>
             </li>
           </ul>
           <div class="more flex_ac">
@@ -256,7 +273,8 @@
           </div>
 
           <ul class="famous__list">
-            <li class="famous__card card card__shadow">
+            <li >
+              <a href="#" class="famous__card card card__shadow">
               <div class="card__img fam">
                 <img
                   class="right_l cover"
@@ -280,8 +298,10 @@
                   ><i class="fa-solid fa-star blue"></i>
                 </div>
               </div>
+              </a>
             </li>
-            <li class="famous__card card card__shadow">
+            <li>
+              <a href="#" class="famous__card card card__shadow">
               <div class="card__img fam">
                 <img
                   class="right_l cover"
@@ -305,8 +325,10 @@
                   ><i class="fa-solid fa-star gray"></i>
                 </div>
               </div>
+              </a>
             </li>
-            <li class="famous__card card card__shadow">
+            <li>
+              <a href="#" class="famous__card card card__shadow">
               <div class="card__img fam">
                 <img
                   class="right_l cover"
@@ -330,14 +352,15 @@
                   ><i class="fa-solid fa-star gray"></i>
                 </div>
               </div>
+              </a>
             </li>
           </ul>
         </div>
       </section>
-      <section class="activity">
+      <section class="activity" id="activity">
         <h1 class="activity__title">Activités à Marseille</h1>
         <div class="activity__container flex">
-          <div class="activity__card big__card card__shadow flex">
+          <a href="#" class="activity__card big__card card__shadow flex">
             <div class="big__card_img">
               <img
                 class="cover bot_r"
@@ -349,9 +372,9 @@
             <div class="activity__card_text">
               <h2>Vieux Port</h2>
             </div>
-          </div>
+          </a>
           <div class="activity__card small__card flex">
-            <div class="card__shadow card__top flex">
+            <a href="#" class="card__shadow card__top flex">
               <div class="small__card_img cb_240">
                 <img
                   class="cover bot_r"
@@ -363,9 +386,9 @@
               <div class="activity__card_text">
                 <h2>Fort de Pomègues</h2>
               </div>
-            </div>
+            </a>
 
-            <div class="card__shadow card__bottom flex">
+            <a href="#" class="card__shadow card__bottom flex">
               <div class="small__card_img cb_170">
                 <img
                   class="cover bot_r"
@@ -377,9 +400,9 @@
               <div class="activity__card_text">
                 <h2>Îles du Frioul</h2>
               </div>
-            </div>
+            </a>
           </div>
-          <div class="activity__card big__card card__shadow flex">
+          <a href="#" class="activity__card big__card card__shadow flex">
             <div class="big__card_img">
               <img
                 class="cover bot_r"
@@ -391,9 +414,9 @@
             <div class="activity__card_text">
               <h2>Parc National des Calanques</h2>
             </div>
-          </div>
+          </a>
           <div class="activity__card small__card flex">
-            <div class="card__shadow card__top flex">
+            <a href="#" class="card__shadow card__top flex">
               <div class="small__card_img cb_180">
                 <img
                   class="cover bot_r"
@@ -405,8 +428,8 @@
               <div class="activity__card_text">
                 <h2>Notre-Dame-de-la-Garde</h2>
               </div>
-            </div>
-            <div class="card__shadow card__bottom flex">
+            </a>
+            <a href="#" class="card__shadow card__bottom flex">
               <div class="small__card_img cb_240">
                 <img
                   class="cover bot_r"
@@ -418,10 +441,10 @@
               <div class="activity__card_text">
                 <h2>Parc Longcham</h2>
               </div>
-            </div>
+            </a>
           </div>
         </div>
-      </section> 
+      </section>
     </main>
     <footer>
       <nav class="about">

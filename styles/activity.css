@@ -21,14 +21,6 @@ section.activity{
     flex-direction: column;
 }
 
-.big__card_img{
-    height: 90%;
-}
-
-.big__card_img img{
-    height: 100%;
-}
-
 .small__card{
     flex-direction: column;
     justify-content: space-between;
@@ -37,6 +29,7 @@ section.activity{
 
 .card__top, .card__bottom{
     flex-direction: column;
+    height: auto;
 }
 
 .cb_240{
@@ -61,10 +54,52 @@ section.activity{
     font-weight: 800;
 }
 
-.small__card_img img{
-    height: 100%;
+
+@media screen and (min-width: 992px) {
+    .big__card_img{
+        height: 90%;
+    }
+    .small__card_img img, .big__card img{
+        height: 100%;
+    }
 }
 
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 992px) {
+    .activity__container{
+        flex-wrap: wrap;
+    }
+    
+    .activity__card{
+        width: 45%;
+    }
+    .big__card_img, .small__card_img{
+        height: 90%;
+    }
+    .small__card_img img, .big__card_img img{
+        height: 100%;
+    }
+}
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .activity__container{
+        flex-direction: column;
+        justify-content: center;
+        gap: 60px;
+    }
+    .activity__card{
+        width: 100%;
+    }
+    .cb_240, .cb_170, .cb_180{
+        max-height: 80%;
+    }
+    
+    .big__card_img{
+        height: 150px;
+    }
+    .small__card_img img{
+        max-height: 100%;
+    }
+    .card__top, .card__bottom{
+        height: 280px;
+    }
+}

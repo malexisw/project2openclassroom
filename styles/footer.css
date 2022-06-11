@@ -27,4 +27,23 @@ nav ul li a{
 
 @media screen and (max-width: 992px) {}
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    footer{
+        padding-top: 80px;
+        flex-direction: column;
+    }
+    footer nav{
+        width: 100%;
+    }
+    footer nav:not(:last-child){
+        margin-bottom: 60px;
+    }
+    nav h2{
+        margin-bottom: 36px;
+        font-weight: 800;
+    }
+    nav ul li a{
+        font-size: 32px;
+        font-weight: 500;
+    }
+}

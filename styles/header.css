@@ -17,6 +17,7 @@ header .logo_container {
     max-height: 100%;
     width: 50%;
     object-fit: contain;
+    cursor: pointer;
 }
 
 /* Header nav */
@@ -52,7 +53,15 @@ nav ul.nav__list {
     color: var(--blue-600);
 }
 
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 992px) {
+    .logo_container .logo {
+        max-height: 100%;
+        width: 100%;
+    }
+    header nav {
+        width: auto;
+    }
+}
 
 @media screen and (max-width: 768px) {
     header{

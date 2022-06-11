@@ -15,6 +15,7 @@
     --gray-900: #f2f2f2;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* Global style */
@@ -98,19 +99,15 @@ img {
     }
 }
 
-@media screen and (max-width: 992px) {}
-
-@media screen and (max-width: 768px) {
-    header {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    footer, .search {
+@media screen and (max-width: 992px) {
+    footer, .search, .activity {
         padding-left: 5%;
         padding-right: 5%;
     }
-
+    .flex_ac {
+        display: flex;
+        align-items: center;
+    }
     .xs {
         display: initial;
     }
@@ -118,6 +115,20 @@ img {
     .xl {
         display: none;
     }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    footer, .search, .activity {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    
 
     .flex_ac {
         display: flex;

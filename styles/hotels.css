@@ -24,6 +24,7 @@
 
 h1.hotels__title {
     margin-bottom: 30px;
+    line-height: 46px;
 }
 
 ul.hotels__list {
@@ -133,15 +134,12 @@ p.card__price.fam {
     margin-bottom: 50px;
 }
 
-@media screen and (max-width: 992px) {}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .hotels {
         flex-direction: column-reverse;
         justify-content: flex-start;
         gap: 60px;
     }
-
     .side {
         background-color: transparent;
         border-radius: 20px;
@@ -149,7 +147,12 @@ p.card__price.fam {
         width: 100%;
         border-radius: 0;
     }
+    li.hebergements__card {
+        width: 45%;
+    }
+}
 
+@media screen and (max-width: 768px) {
     .famous{
         background-color: var(--gray-900);
     }
