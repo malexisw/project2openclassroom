@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;600;700;800;900&display=swap');
 
-@import './styles/header.css';
-@import './styles/search.css';
-@import './styles/hotels.css';
-@import './styles/activity.css';
-@import './styles/footer.css';
+@import './header.css';
+@import './search.css';
+@import './hotels.css';
+@import './activity.css';
+@import './footer.css';
 
 /* Variable styles */
 

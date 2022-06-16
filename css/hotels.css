@@ -55,6 +55,10 @@ li.hebergements__card {
     padding: 10px 20px;
 }
 
+.text_top{
+    height: 85%;
+}
+
 h2.card_title {
     line-height: 30px;
     margin-bottom: 10px;
@@ -112,12 +116,12 @@ p.card__price {
 
 .famous__card {
     display: flex;
-    height: 200px;
 }
 
 .card__img.fam {
     min-width: 40%;
     max-width: 40%;
+    height: 200px;
 }
 
 img.right_l {
@@ -128,10 +132,6 @@ img.right_l {
 .fam img {
     height: 100%;
     width: 100%;
-}
-
-p.card__price.fam {
-    margin-bottom: 50px;
 }
 
 @media screen and (max-width: 992px) {
