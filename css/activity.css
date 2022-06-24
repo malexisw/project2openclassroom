@@ -48,7 +48,7 @@ section.activity{
     max-height: 180px;
 }
 
-.activity__card_text h2{
+.activity__card_text h4{
     padding: 20px;
     font-size: 20px;
     font-weight: 800;

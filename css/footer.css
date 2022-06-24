@@ -11,7 +11,7 @@ footer nav{
     width: 33%;
 }
 
-nav h2{
+nav h4{
     margin-bottom: 25px;
     font-weight: 800;
 }
@@ -38,12 +38,12 @@ nav ul li a{
     footer nav:not(:last-child){
         margin-bottom: 60px;
     }
-    nav h2{
+    nav h4{
         margin-bottom: 36px;
         font-weight: 800;
     }
     nav ul li a{
-        font-size: 32px;
+        font-size: 20px;
         font-weight: 500;
     }
 }

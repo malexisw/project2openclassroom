@@ -44,6 +44,7 @@ form.search__location {
     color: #FFFFFF;
     cursor: pointer;
     transition: background .3s ease;
+    transform: translateX(-25px);
 }
 
 .btn_location:hover{
@@ -167,44 +168,36 @@ p.info__text {
         margin-bottom: 60px;
     }
 
-    h1.title_first {
-        font-size: 46px;
-        line-height: 54px;
+    h2.title_first {
         margin-bottom: 30px;
     }
 
     p.title_second {
         font-weight: 500;
-        font-size: 32px;
+        font-size: 20px;
         line-height: 34px;
     }
 
     .form {
-        font-size: 40px;
+        font-size: 24px;
         font-weight: 600;
     }
 
-    .location__logo {
-        padding: 32px 0px;
+    .location__logo, .location__city {
+        padding: 20px 0px;
     }
 
-    .location__city {
-        padding: 30px 0px;
-    }
 
-    .btn_location {
-        padding: 30px 0;
-    }
 
     /* Filter */
 
     .filter {
         flex-direction: column;
-        gap: 80px;
+        gap: 40px;
     }
 
     .filter__title {
-        font-size: 38px;
+        font-size: 24px;
         margin-bottom: 0px;
     }
 
@@ -216,7 +209,6 @@ p.info__text {
 
     li.filter__item {
         align-items: center;
-        padding: 24px;
         margin-right: 40px;
         margin-left: 10px;
         margin-bottom: 20px;
@@ -226,20 +218,19 @@ p.info__text {
 
     .filter__logo {
         align-items: center;
-        left: -50px;
-        font-size: 36px;
-        height: 90px;
-        width: 90px;
+        left: -30px;
+        font-size: 24px;
     }
 
     .fa-child-reaching {
-        font-size: 40px;
+        font-size: 28px;
     }
 
     p.filter__text {
         padding-right: 10px;
-        font-size: 36px;
+        font-size: 20px;
         margin-left: 25px;
+        white-space: nowrap;
     }
 
     .info {
@@ -248,13 +239,12 @@ p.info__text {
     
     .circle__info {
         align-items: center;
-        height: 50px;
-        width: 70px;
+        padding: 20px;
         font-size: 28px;
         margin-right: 20px;
     }
     
     p.info__text {
-        font-size: 34px;
+        font-size: 20px;
     }
 }

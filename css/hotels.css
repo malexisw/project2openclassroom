@@ -4,7 +4,6 @@
     margin-bottom: 40px;
 }
 
-
 /* Left side */
 .side {
     background-color: var(--gray-900);
@@ -31,6 +30,7 @@ ul.hotels__list {
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
+    margin-top: 40px;
 }
 
 .card {
@@ -41,7 +41,7 @@ ul.hotels__list {
 
 li.hebergements__card {
     position: relative;
-    width: 30%;
+    width: 29%;
 }
 
 .card__img.heb {
@@ -51,16 +51,12 @@ li.hebergements__card {
 .card__text {
     flex-direction: column;
     justify-content: space-between;
-
     padding: 10px 20px;
 }
 
-.text_top{
-    height: 85%;
-}
 
-h2.card_title {
-    line-height: 30px;
+
+h4.card_title {
     margin-bottom: 10px;
 }
 
@@ -89,7 +85,7 @@ p.card__price {
     height: 100%;
 }
 
-.more a h2 {
+.more a h4 {
     font-weight: 800;
     margin-left: 30px;
     margin-top: 20px;
@@ -114,14 +110,9 @@ p.card__price {
     gap: 40px;
 }
 
-.famous__card {
-    display: flex;
-}
-
 .card__img.fam {
     min-width: 40%;
     max-width: 40%;
-    height: 200px;
 }
 
 img.right_l {
@@ -129,16 +120,24 @@ img.right_l {
     border-bottom-left-radius: 20px;
 }
 
-.fam img {
-    height: 100%;
-    width: 100%;
+.famous__item{
+    height: 200px;
+}
+
+@media screen and (max-width: 1300px) {
+    li.hebergements__card{
+        width: 45%;
+    }
+
+    .famous__item{
+        height: 300px;
+    }
 }
 
 @media screen and (max-width: 992px) {
     .hotels {
         flex-direction: column-reverse;
         justify-content: flex-start;
-        gap: 60px;
     }
     .side {
         background-color: transparent;
@@ -147,8 +146,11 @@ img.right_l {
         width: 100%;
         border-radius: 0;
     }
-    li.hebergements__card {
-        width: 45%;
+    .famous__card {
+        height: 35%;
+    }
+    .famous__item{
+        height: 200px;
     }
 }
 
@@ -160,6 +162,7 @@ img.right_l {
     ul.hotels__list {
         flex-direction: column;
         gap: 40px;
+        margin-top: 20px;
     }
 
     li.hebergements__card {
