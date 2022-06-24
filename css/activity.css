@@ -1,54 +1,56 @@
 /* Activity Section */
 
-section.activity{
+section.activity {
     margin-bottom: 80px;
 }
 
-.activity__title{
+.activity__title {
     margin-bottom: 40px;
 }
 
-.activity__container{
+.activity__container {
     justify-content: space-evenly;
     gap: 60px;
 }
 
-.activity__card{
+.activity__card {
     width: 25%;
 }
 
-.big__card{
+.big__card {
     flex-direction: column;
 }
 
-.small__card{
+.small__card {
     flex-direction: column;
     justify-content: space-between;
     gap: 50px;
 }
 
-.card__top, .card__bottom{
+.card__top,
+.card__bottom {
     flex-direction: column;
     height: auto;
 }
 
-.cb_240{
+.cb_240 {
     max-height: 240px;
 }
 
-.cb_170{
+.cb_170 {
     max-height: 170px;
 }
 
-.cb_170 img, .cb_180 img{
+.cb_170 img,
+.cb_180 img {
     object-position: 0 0;
 }
 
-.cb_180{
+.cb_180 {
     max-height: 180px;
 }
 
-.activity__card_text h4{
+.activity__card_text h4 {
     padding: 20px;
     font-size: 20px;
     font-weight: 800;
@@ -56,50 +58,63 @@ section.activity{
 
 
 @media screen and (min-width: 992px) {
-    .big__card_img{
+    .big__card_img {
         height: 90%;
     }
-    .small__card_img img, .big__card img{
+
+    .small__card_img img,
+    .big__card img {
         height: 100%;
     }
 }
 
 @media screen and (max-width: 992px) {
-    .activity__container{
+    .activity__container {
         flex-wrap: wrap;
     }
-    
-    .activity__card{
+
+    .activity__card {
         width: 45%;
     }
-    .big__card_img, .small__card_img{
+
+    .big__card_img,
+    .small__card_img {
         height: 90%;
     }
-    .small__card_img img, .big__card_img img{
+
+    .small__card_img img,
+    .big__card_img img {
         height: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .activity__container{
+    .activity__container {
         flex-direction: column;
         justify-content: center;
         gap: 60px;
     }
-    .activity__card{
+
+    .activity__card {
         width: 100%;
     }
-    .cb_240, .cb_170, .cb_180{
+
+    .cb_240,
+    .cb_170,
+    .cb_180 {
         max-height: 80%;
     }
-    
-    .big__card_img{
+
+    .big__card_img {
         height: 150px;
     }
-    .small__card_img img{
+
+    .small__card_img img {
         max-height: 100%;
     }
-    .card__top, .card__bottom{
+
+    .card__top,
+    .card__bottom {
         height: 280px;
     }
 }

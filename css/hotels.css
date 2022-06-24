@@ -54,8 +54,6 @@ li.hebergements__card {
     padding: 10px 20px;
 }
 
-
-
 h4.card_title {
     margin-bottom: 10px;
 }
@@ -98,9 +96,6 @@ p.card__price {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
-}
-
-.famous__title_container i {
     font-size: 26px;
 }
 
@@ -161,7 +156,6 @@ img.right_l {
 
     ul.hotels__list {
         flex-direction: column;
-        gap: 40px;
         margin-top: 20px;
     }
 
